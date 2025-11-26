@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/</loc>
+    <loc>https://andhikafr19.github.io/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/about/</loc>
+    <loc>https://andhikafr19.github.io/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/projects/</loc>
+    <loc>https://andhikafr19.github.io/projects/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/cv/</loc>
+    <loc>https://andhikafr19.github.io/cv/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/contact/</loc>
+    <loc>https://andhikafr19.github.io/contact/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/projects/ecommerce-platform/</loc>
+    <loc>https://andhikafr19.github.io/projects/ecommerce-platform/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/projects/task-management-app/</loc>
+    <loc>https://andhikafr19.github.io/projects/task-management-app/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/projects/weather-dashboard/</loc>
+    <loc>https://andhikafr19.github.io/projects/weather-dashboard/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/projects/blog-cms/</loc>
+    <loc>https://andhikafr19.github.io/projects/blog-cms/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/projects/fitness-tracker/</loc>
+    <loc>https://andhikafr19.github.io/projects/fitness-tracker/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://andhikafr19.github.io/personal-web/projects/chat-application/</loc>
+    <loc>https://andhikafr19.github.io/projects/chat-application/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
