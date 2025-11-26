@@ -20,8 +20,8 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://namasaya.com"),
   title: {
-    default: "Nama Saya - Software Engineer",
-    template: "%s | Nama Saya",
+    default: "Andhika Firdaus R - Software Engineer",
+    template: "%s | Andhika Firdaus R",
   },
   description:
     "Software Engineer yang fokus pada pengembangan web aplikasi performa tinggi dengan Next.js, TypeScript, dan teknologi modern lainnya.",
@@ -35,14 +35,14 @@ export const metadata: Metadata = {
     "Tailwind CSS",
     "Full Stack Developer",
   ],
-  authors: [{ name: "Nama Saya", url: "https://namasaya.com" }],
-  creator: "Nama Saya",
+  authors: [{ name: "Andhika Firdaus R", url: "https://namasaya.com" }],
+  creator: "Andhika Firdaus R",
   openGraph: {
     type: "website",
     locale: "id_ID",
     url: "https://namasaya.com",
-    siteName: "Nama Saya",
-    title: "Nama Saya - Software Engineer",
+    siteName: "Andhika Firdaus R",
+    title: "Andhika Firdaus R - Software Engineer",
     description:
       "Software Engineer yang fokus pada pengembangan web aplikasi performa tinggi.",
     images: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Nama Saya - Software Engineer",
+        alt: "Andhika Firdaus R - Software Engineer",
       },
     ],
   },

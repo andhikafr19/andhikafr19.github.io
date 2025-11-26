@@ -38,7 +38,7 @@ export function Navbar() {
           href="/"
           className="font-bold text-xl tracking-tight hover:opacity-80 transition-opacity"
         >
-          <span className="text-primary">NS</span>
+          <span className="text-primary">AFR</span>
         </Link>
 
         {/* Desktop Navigation */}

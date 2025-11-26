@@ -75,7 +75,7 @@ export default function HomePage() {
                 transition={{ delay: 0.2 }}
                 className="text-muted-foreground"
               >
-                Halo, saya
+                Assalamualaikum, Hello My Name
               </motion.p>
               <motion.h1
                 initial={{ opacity: 0, y: 10 }}
@@ -83,7 +83,7 @@ export default function HomePage() {
                 transition={{ delay: 0.3 }}
                 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight"
               >
-                <span className="gradient-text">Nama Saya</span>
+                <span className="gradient-text">Andhika Firdaus R</span>
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 10 }}
@@ -97,10 +97,9 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
-                className="text-lg text-muted-foreground max-w-lg"
+                className="text-3xl text-muted-foreground max-w-lg"
               >
-                Software Engineer yang fokus pada pengembangan web aplikasi performa
-                tinggi dengan teknologi modern.
+                "Learning New Technology, Move Fast and Development Great Products."
               </motion.p>
             </div>
 
