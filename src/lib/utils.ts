@@ -7,6 +7,6 @@ export function cn(...inputs: ClassValue[]) {
 
 // Helper untuk menambahkan basePath ke asset paths
 export function getAssetPath(path: string): string {
-  const basePath = process.env.NODE_ENV === "production" ? "/personal-web" : "";
+  const basePath = process.env.NODE_ENV === "production" ? "/" : "";
   return `${basePath}${path}`;
 }
