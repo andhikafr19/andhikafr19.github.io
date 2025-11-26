@@ -25,6 +25,7 @@ export function ContactForm({ onSuccess }: ContactFormProps) {
     handleSubmit,
     reset,
     formState: { errors },
+    getValues,
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
   });
@@ -34,28 +35,25 @@ export function ContactForm({ onSuccess }: ContactFormProps) {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+      // For static export, use mailto: link
+      const mailtoLink = `mailto:your-email@example.com?subject=${encodeURIComponent(
+        data.subject
+      )}&body=${encodeURIComponent(
+        `Nama: ${data.name}\nEmail: ${data.email}\n\n${data.message}`
+      )}`;
+      
+      window.open(mailtoLink, "_blank");
+      
+      setSubmitStatus({
+        type: "success",
+        message: "Email client akan terbuka. Silakan kirim email dari sana.",
       });
-
-      const result = await response.json();
-
-      if (response.ok) {
-        setSubmitStatus({ type: "success", message: result.message });
-        reset();
-        onSuccess?.();
-      } else {
-        setSubmitStatus({
-          type: "error",
-          message: result.message || "Terjadi kesalahan. Silakan coba lagi.",
-        });
-      }
+      reset();
+      onSuccess?.();
     } catch {
       setSubmitStatus({
         type: "error",
-        message: "Gagal mengirim pesan. Periksa koneksi internet Anda.",
+        message: "Gagal membuka email client. Silakan hubungi langsung via email.",
       });
     } finally {
       setIsSubmitting(false);

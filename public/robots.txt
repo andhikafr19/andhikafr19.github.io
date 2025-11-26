@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://andhikafr19.github.io/personal-web/sitemap.xml
