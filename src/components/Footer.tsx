@@ -10,10 +10,10 @@ const socialLinks = [
 
 const quickLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "Tentang" },
+  { href: "/about", label: "About" },
   { href: "/projects", label: "Portofolio" },
   { href: "/cv", label: "CV" },
-  { href: "/contact", label: "Kontak" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function Footer() {
@@ -26,10 +26,10 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/" className="font-bold text-xl tracking-tight">
-              <span className="text-primary">NS</span>
+              <span className="text-primary">AFR</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
-              Software Engineer yang fokus pada pengembangan web aplikasi performa tinggi dengan pengalaman modern technologies.
+              Learning New Technology, Move Fast and Development Great Products.
             </p>
           </div>
 
@@ -76,7 +76,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-border/40 text-center">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Nama Saya. All rights reserved.
+            © {currentYear} AFR. All rights reserved.
           </p>
         </div>
       </div>

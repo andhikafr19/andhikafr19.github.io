@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nama Saya - Software Engineer",
+    title: "Andhika Firdaus R - Software Engineer",
     description:
       "Software Engineer yang fokus pada pengembangan web aplikasi performa tinggi.",
     images: ["/og.png"],

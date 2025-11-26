@@ -19,10 +19,10 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "Tentang" },
-  { href: "/projects", label: "Portofolio" },
+  { href: "/about", label: "About" },
+  { href: "/projects", label: "Portfolio" },
   { href: "/cv", label: "CV" },
-  { href: "/contact", label: "Kontak" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function Navbar() {
@@ -71,7 +71,7 @@ export function Navbar() {
             </DialogTrigger>
             <DialogContent className="max-w-md">
               <DialogHeader>
-                <DialogTitle>Hubungi Saya</DialogTitle>
+                <DialogTitle>Contact Me</DialogTitle>
               </DialogHeader>
               <ContactForm onSuccess={() => setIsHireDialogOpen(false)} />
             </DialogContent>

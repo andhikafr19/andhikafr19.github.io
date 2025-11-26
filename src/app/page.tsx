@@ -23,7 +23,6 @@ const skills = [
   "Docker",
   "Git",
   "REST API",
-  "GraphQL",
 ];
 
 const socialLinks = [
@@ -39,7 +38,7 @@ export default function HomePage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Nama Saya",
+    name: "Andhika Firdaus R",
     url: "https://namasaya.com",
     jobTitle: "Software Engineer",
     description:
@@ -112,14 +111,14 @@ export default function HomePage() {
             >
               <Button asChild size="lg">
                 <Link href="/projects">
-                  Lihat Portofolio
+                  View Portofolio
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <Link href="/cv">
                   <Download className="mr-2 h-5 w-5" />
-                  Unduh CV
+                  Download CV
                 </Link>
               </Button>
             </motion.div>
@@ -176,9 +175,9 @@ export default function HomePage() {
       <Section className="bg-muted/30">
         <RevealOnScroll>
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Skills & Teknologi</h2>
+            <h2 className="text-3xl font-bold mb-4">Skills & Technology</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Teknologi dan tools yang saya gunakan dalam pengembangan aplikasi modern.
+              The technologies and tools I use in modern application development.
             </p>
           </div>
         </RevealOnScroll>
