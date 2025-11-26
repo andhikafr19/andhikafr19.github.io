@@ -3,6 +3,7 @@
 import { Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import { getAssetPath } from "@/lib/utils";
 
 interface DownloadCVButtonProps {
   className?: string;
@@ -15,15 +16,10 @@ export function DownloadCVButton({ className }: DownloadCVButtonProps) {
     setIsDownloading(true);
 
     try {
-      // Optional: Track download count via API
-      await fetch("/api/cv-download", { method: "POST" }).catch(() => {
-        // Silently fail if tracking endpoint doesn't exist
-      });
-
       // Trigger download
       const link = document.createElement("a");
-      link.href = "/cv.pdf";
-      link.download = "CV_Nama_Saya.pdf";
+      link.href = getAssetPath("/cv.pdf");
+      link.download = "CV_Andhika_Firdaus.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
