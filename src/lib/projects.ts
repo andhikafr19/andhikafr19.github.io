@@ -1,4 +1,4 @@
-import { getAssetPath } from "./utils";
+
 
 export interface Project {
   slug: string;
@@ -25,8 +25,8 @@ export const projects: Project[] = [
     title: "E-Commerce Platform",
     description: "Platform e-commerce modern dengan fitur pembayaran terintegrasi dan dashboard admin.",
     longDescription: "Sebuah platform e-commerce full-stack yang dibangun dengan Next.js dan Node.js. Fitur termasuk autentikasi pengguna, keranjang belanja, checkout dengan berbagai metode pembayaran, dan dashboard admin untuk manajemen produk.",
-    coverImage: getAssetPath("/projects/ecommerce-cover.jpg"),
-    images: [getAssetPath("/projects/ecommerce-1.jpg"), getAssetPath("/projects/ecommerce-2.jpg")],
+    coverImage: "/projects/ecommerce-cover.jpg",
+    images: ["/projects/ecommerce-1.jpg", "/projects/ecommerce-2.jpg"],
     technologies: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
     category: "Next.js",
     features: [
@@ -50,8 +50,8 @@ export const projects: Project[] = [
     title: "Task Management App",
     description: "Aplikasi manajemen tugas kolaboratif dengan fitur real-time dan notifikasi.",
     longDescription: "Aplikasi produktivitas untuk tim dengan fitur drag-and-drop kanban board, real-time collaboration, deadline reminders, dan integrasi dengan berbagai tools.",
-    coverImage: getAssetPath("/projects/taskapp-cover.jpg"),
-    images: [getAssetPath("/projects/taskapp-1.jpg"), getAssetPath("/projects/taskapp-2.jpg")],
+    coverImage: "/projects/taskapp-cover.jpg",
+    images: ["/projects/taskapp-1.jpg", "/projects/taskapp-2.jpg"],
     technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS", "Framer Motion"],
     category: "React",
     features: [
@@ -74,8 +74,8 @@ export const projects: Project[] = [
     title: "API Gateway Service",
     description: "Microservice API gateway dengan rate limiting, authentication, dan monitoring.",
     longDescription: "API Gateway yang dibangun dengan Node.js untuk menangani autentikasi, rate limiting, request routing, dan monitoring untuk arsitektur microservices.",
-    coverImage: getAssetPath("/projects/api-gateway-cover.jpg"),
-    images: [getAssetPath("/projects/api-gateway-1.jpg")],
+    coverImage: "/projects/api-gateway-cover.jpg",
+    images: ["/projects/api-gateway-1.jpg"],
     technologies: ["Node.js", "Express", "Redis", "Docker", "Kubernetes", "Prometheus"],
     category: "Node.js",
     features: [
@@ -97,8 +97,8 @@ export const projects: Project[] = [
     title: "Mobile Fitness App",
     description: "Aplikasi fitness mobile dengan tracking workout dan integrasi wearables.",
     longDescription: "Aplikasi fitness cross-platform yang dibangun dengan React Native. Fitur termasuk workout tracking, progress analytics, dan integrasi dengan smartwatch.",
-    coverImage: getAssetPath("/projects/fitness-cover.jpg"),
-    images: [getAssetPath("/projects/fitness-1.jpg"), getAssetPath("/projects/fitness-2.jpg")],
+    coverImage: "/projects/fitness-cover.jpg",
+    images: ["/projects/fitness-1.jpg", "/projects/fitness-2.jpg"],
     technologies: ["React Native", "TypeScript", "Node.js", "MongoDB", "HealthKit"],
     category: "Mobile",
     features: [
@@ -121,8 +121,8 @@ export const projects: Project[] = [
     title: "Headless CMS Dashboard",
     description: "Dashboard untuk content management system dengan editor WYSIWYG.",
     longDescription: "Headless CMS dashboard yang dibangun dengan Next.js, menyediakan editor konten yang powerful, media management, dan API untuk frontend consumption.",
-    coverImage: getAssetPath("/projects/cms-cover.jpg"),
-    images: [getAssetPath("/projects/cms-1.jpg")],
+    coverImage: "/projects/cms-cover.jpg",
+    images: ["/projects/cms-1.jpg"],
     technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "TipTap", "AWS S3"],
     category: "Next.js",
     features: [
@@ -144,8 +144,8 @@ export const projects: Project[] = [
     title: "Real-Time Chat Application",
     description: "Aplikasi chat real-time dengan fitur group, media sharing, dan end-to-end encryption.",
     longDescription: "Aplikasi chat modern dengan WebSocket untuk komunikasi real-time, mendukung chat pribadi dan grup, berbagi media, dan enkripsi end-to-end untuk privasi.",
-    coverImage: getAssetPath("/projects/chat-cover.jpg"),
-    images: [getAssetPath("/projects/chat-1.jpg"), getAssetPath("/projects/chat-2.jpg")],
+    coverImage: "/projects/chat-cover.jpg",
+    images: ["/projects/chat-1.jpg", "/projects/chat-2.jpg"],
     technologies: ["Next.js", "Socket.io", "Node.js", "MongoDB", "Redis", "Tailwind CSS"],
     category: "Next.js",
     features: [

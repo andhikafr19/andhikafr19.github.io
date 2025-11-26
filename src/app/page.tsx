@@ -10,7 +10,7 @@ import { Section } from "@/components/Section";
 import { RevealOnScroll } from "@/components/RevealOnScroll";
 import { getFeaturedProjects } from "@/lib/projects";
 import { ProjectCard } from "@/components/ProjectCard";
-import { getAssetPath } from "@/lib/utils";
+
 
 const skills = [
   "TypeScript",
@@ -158,7 +158,7 @@ export default function HomePage() {
               <div className="absolute -inset-1 bg-linear-to-r from-primary/50 to-primary/30 rounded-full blur-2xl opacity-50 group-hover:opacity-75 transition-opacity" />
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-background shadow-2xl transform transition-transform duration-300 group-hover:scale-[1.02]">
                 <Image
-                  src={getAssetPath("/linkedin_avatar_andhika.jpg")}
+                  src={"/linkedin_avatar_andhika.jpg"}
                   alt="Andhika Firdaus Ramadhan"
                   fill
                   className="object-cover"
