@@ -90,7 +90,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
-              Kembali ke Portofolio
+              Back to Portofolio
             </Link>
 
             <div className="grid lg:grid-cols-2 gap-12 items-start">
@@ -166,7 +166,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             {/* Features */}
             <Card>
               <CardHeader>
-                <CardTitle>Fitur Utama</CardTitle>
+                <CardTitle>Key Features</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">
@@ -183,7 +183,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             {/* Challenges */}
             <Card>
               <CardHeader>
-                <CardTitle>Tantangan</CardTitle>
+                <CardTitle>Challenges</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">{project.challenges}</p>
@@ -193,7 +193,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             {/* Results */}
             <Card>
               <CardHeader>
-                <CardTitle>Hasil</CardTitle>
+                <CardTitle>Results</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">{project.results}</p>
@@ -205,17 +205,17 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           <RevealOnScroll delay={0.2} className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle>Info Proyek</CardTitle>
+                <CardTitle>Project Info</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <p className="text-sm text-muted-foreground">Kategori</p>
+                  <p className="text-sm text-muted-foreground">Category</p>
                   <p className="font-medium">{project.category}</p>
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Tanggal</p>
+                  <p className="text-sm text-muted-foreground">Date</p>
                   <p className="font-medium">
-                    {new Date(project.createdAt).toLocaleDateString("id-ID", {
+                    {new Date(project.createdAt).toLocaleDateString("en-US", {
                       year: "numeric",
                       month: "long",
                     })}
@@ -232,7 +232,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             {project.images.length > 0 && (
               <Card>
                 <CardHeader>
-                  <CardTitle>Galeri</CardTitle>
+                  <CardTitle>Gallery</CardTitle>
                 </CardHeader>
                 <CardContent className="grid grid-cols-2 gap-2">
                   {project.images.map((image, index) => (

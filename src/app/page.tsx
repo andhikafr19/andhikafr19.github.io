@@ -26,9 +26,9 @@ const skills = [
 ];
 
 const socialLinks = [
-  { href: "https://github.com/username", icon: Github, label: "GitHub" },
-  { href: "https://linkedin.com/in/username", icon: Linkedin, label: "LinkedIn" },
-  { href: "https://twitter.com/username", icon: Twitter, label: "Twitter" },
+  { href: "https://github.com/andhikafr19", icon: Github, label: "GitHub" },
+  { href: "https://linkedin.com/in/andhika-firdaus-ramadhan", icon: Linkedin, label: "LinkedIn" },
+  { href: "https://twitter.com", icon: Twitter, label: "Twitter" },
 ];
 
 export default function HomePage() {
@@ -208,14 +208,14 @@ export default function HomePage() {
         <RevealOnScroll>
           <div className="flex justify-between items-center mb-12">
             <div>
-              <h2 className="text-3xl font-bold mb-2">Proyek Unggulan</h2>
+              <h2 className="text-3xl font-bold mb-2">Project Portfolio</h2>
               <p className="text-muted-foreground">
-                Beberapa proyek terbaik yang telah saya kerjakan.
+                Some of the best projects I have worked on.
               </p>
             </div>
             <Button variant="outline" asChild>
               <Link href="/projects">
-                Lihat Semua
+                See All Projects
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

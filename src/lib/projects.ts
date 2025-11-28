@@ -21,29 +21,26 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: "e-commerce-platform",
-    title: "E-Commerce Platform",
-    description: "Platform e-commerce modern dengan fitur pembayaran terintegrasi dan dashboard admin.",
-    longDescription: "Sebuah platform e-commerce full-stack yang dibangun dengan Next.js dan Node.js. Fitur termasuk autentikasi pengguna, keranjang belanja, checkout dengan berbagai metode pembayaran, dan dashboard admin untuk manajemen produk.",
-    coverImage: "/projects/ecommerce-cover.jpg",
-    images: ["/projects/ecommerce-1.jpg", "/projects/ecommerce-2.jpg"],
-    technologies: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-    category: "Next.js",
+    slug: "adpmet-website",
+    title: "ADPMET Website",
+    description: "An institution's website with authentication and CMS features.",
+    longDescription: "An institution's website with authentication and CMS features. Development using Bootstrap and Laravel technologies.",
+    coverImage: "/projects/adpmet-project.png",
+    images: ["/projects/adpmet-1.png", "/projects/adpmet-2.png"],
+    technologies: ["Bootstrap", "Laravel", "MySQL", "PHP", "JavaScript"],
+    category: "Laravel",
     features: [
-      "Autentikasi dan otorisasi pengguna",
-      "Keranjang belanja real-time",
-      "Integrasi pembayaran Stripe",
-      "Dashboard admin",
-      "Pencarian dan filter produk",
+      "User authentication and authorization",
+      "CMS",
       "Responsive design"
     ],
-    role: "Full Stack Developer",
-    challenges: "Mengimplementasikan sistem keranjang real-time yang sinkron di berbagai device dan menangani edge cases pada proses checkout.",
-    results: "Berhasil meningkatkan konversi checkout sebesar 25% dan mengurangi cart abandonment rate.",
+    role: "Frontend Developer",
+    challenges: "because at that time it was my first role as a developer, so I was still using simple technology like bootstrap and there was no UI/UX so the appearance was still not perfect.",
+    results: "Until now the website is still used by the institution.",
     demoUrl: "https://demo-ecommerce.example.com",
-    repoUrl: "https://github.com/username/ecommerce",
+    repoUrl: "https://github.com/username/adpmet-website",
     featured: true,
-    createdAt: "2024-06-15"
+    createdAt: "2020-06-15"
   },
   {
     slug: "task-management-app",
