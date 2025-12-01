@@ -43,12 +43,12 @@ export const projects: Project[] = [
     createdAt: "2020-06-15"
   },
   {
-    slug: "task-management-app",
-    title: "Task Management App",
+    slug: "ppt-revamp-app",
+    title: "PPT Revamp Application",
     description: "Aplikasi manajemen tugas kolaboratif dengan fitur real-time dan notifikasi.",
     longDescription: "Aplikasi produktivitas untuk tim dengan fitur drag-and-drop kanban board, real-time collaboration, deadline reminders, dan integrasi dengan berbagai tools.",
-    coverImage: "/projects/taskapp-cover.jpg",
-    images: ["/projects/taskapp-1.jpg", "/projects/taskapp-2.jpg"],
+    coverImage: "/projects/ppt-revamp.png",
+    images: ["/projects/ppt-revamp-1.jpg", "/projects/ppt-revamp-2.jpg"],
     technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS", "Framer Motion"],
     category: "React",
     features: [
